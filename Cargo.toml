@@ -1,0 +1,14 @@
+[package]
+name = "devcontainers-cli-rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["Michael Lohr <michael@lohr.dev>"]
+description = "A library to safely interact with the vscode devcontainers-cli."
+readme = "README.md"
+repository = "https://github.com/michidk/devcontainers-cli-rust"
+documentation = "https://github.com/michidk/devcontainers-cli-rust"
+homepage = "https://github.com/michidk/devcontainers-cli-rust"
+license = "MIT"
+
+[dependencies]
+thiserror = "1.0.38"
